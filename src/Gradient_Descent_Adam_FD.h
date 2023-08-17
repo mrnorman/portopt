@@ -84,6 +84,7 @@ namespace portopt {
       YAKL_SCOPE( parameters , this->parameters );
       auto num_parameters = get_num_parameters();
       real delta = std::sqrt(eps);
+      // real delta = 10*eps;
       int ensemble_size = num_parameters+1;
       real2d ensemble_parameters("ensemble_parameters",num_parameters,ensemble_size);
       real1d ensemble_cost      ("ensemble_cost"                     ,ensemble_size);

@@ -15,4 +15,6 @@ add_subdirectory(..              ./portopt)
 
 # Unit test directories
 add_subdirectory(adam)
+add_subdirectory(random_walk)
+add_subdirectory(genetic)
 
